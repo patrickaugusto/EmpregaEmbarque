@@ -1,26 +1,23 @@
 .footer {
-    height: 455px;
-    background-color: #1D2641;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
+  height: 455px;
+  background-color: #1d2641;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-decoration: none;
 }
 
-.textfooter
-{
-    font-family:'Times New Roman', Times, serif;
+.textfooter {
+  font-family: "Times New Roman", Times, serif;
 }
-.textequipe
-{
-    align-items: center;
-    justify-content: center;
-    text-decoration:none;
+.text.li {
+  text-decoration: none;
 }
