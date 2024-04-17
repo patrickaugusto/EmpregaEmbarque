@@ -8,7 +8,7 @@ function Footer(){
                 <li>Igor Daniel</li>
                 <li>Antônio Rodrigues</li>
                 <li>Danilo Santana</li>
-                <li>Bruna Roberta</li>
+                <li className={styles.text}>Bruna Roberta</li>
                 <li>Patrick Augusto</li>
             </ul>
         </footer>
