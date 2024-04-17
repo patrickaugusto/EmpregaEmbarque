@@ -1,3 +1,7 @@
-# Figma:
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Emprega Embarque
+
+Figma que contem o prototpo do projeto:
+
+https://www.figma.com/file/AZme6hShq0RAgp8WBvonb4/Prototipo?type=design&node-id=0-1&mode=design&t=9xGgeltd7MMDl2Dg-0
+
+
