@@ -5,7 +5,6 @@ import Form from "../../components/Form";
 function Login() {
   return (
     <>
-      <Nav />
       <h1>Pagina de Login</h1>
       <div class="justify-content-center">
         <Form />
