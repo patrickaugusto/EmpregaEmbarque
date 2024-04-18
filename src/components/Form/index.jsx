@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Form() {
   return (
     <>
@@ -8,8 +10,6 @@ export default function Form() {
             Email address
           </label>
         </div>
-
-        
 
         <div data-mdb-input-init class="form-outline mb-4">
           <input type="password" id="form2Example2" class="form-control" />
@@ -30,60 +30,31 @@ export default function Form() {
               />
               <label class="form-check-label" for="form2Example34">
                 {" "}
-                Remember me{" "}
+                Lembrar Usuario{" "}
               </label>
             </div>
           </div>
 
           <div class="col">
-            <a href="#!">Forgot password?</a>
+            <a href="#!">Esqueceu a senha?</a>
           </div>
         </div>
 
-        <button
-          data-mdb-ripple-init
-          type="button"
-          class="btn btn-primary btn-block mb-4"
-        >
-          Sign in
-        </button>
+        <Link to="/inicio">
+          <button
+            data-mdb-ripple-init
+            type="button"
+            class="btn btn-primary btn-block mb-4"
+          >
+            Entrar
+          </button>
+        </Link>
+
 
         <div class="text-center">
           <p>
-            Not a member? <a href="#!">Register</a>
+            Ainda não possui uma conta? <a href="#!">Registre-se!</a>
           </p>
-          <p>or sign up with:</p>
-          <button
-            data-mdb-ripple-init
-            type="button"
-            class="btn btn-secondary btn-floating mx-1"
-          >
-            <i class="fab fa-facebook-f"></i>
-          </button>
-
-          <button
-            data-mdb-ripple-init
-            type="button"
-            class="btn btn-secondary btn-floating mx-1"
-          >
-            <i class="fab fa-google"></i>
-          </button>
-
-          <button
-            data-mdb-ripple-init
-            type="button"
-            class="btn btn-secondary btn-floating mx-1"
-          >
-            <i class="fab fa-twitter"></i>
-          </button>
-
-          <button
-            data-mdb-ripple-init
-            type="button"
-            class="btn btn-secondary btn-floating mx-1"
-          >
-            <i class="fab fa-github"></i>
-          </button>
         </div>
       </form>
     </>

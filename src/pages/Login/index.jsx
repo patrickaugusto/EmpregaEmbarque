@@ -6,9 +6,7 @@ function Login() {
   return (
     <>
       <h1>Pagina de Login</h1>
-      <div class="justify-content-center">
-        <Form />
-      </div>
+      <Form />
       <Footer />
     </>
   );

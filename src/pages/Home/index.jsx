@@ -5,15 +5,10 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <>      
-      <nav className='nav-login'>
-        <Link to="/login">
-          Entrar
-        </Link>
-      </nav>
-      
+    <>
+      <Nav />
+      <h1>Tela Inicio</h1>
       <Footer />
-
     </>
   );
 }
