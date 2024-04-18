@@ -40,7 +40,7 @@ export default function Form() {
           </div>
         </div>
 
-        <Link to="/inicio">
+        <Link to="/transmissao">
           <button
             data-mdb-ripple-init
             type="button"

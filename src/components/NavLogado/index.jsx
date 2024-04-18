@@ -5,18 +5,13 @@ function Nav() {
     <>
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <Link class="nav-link active" to="/inicio">
-            Inicio
+          <Link class="nav-link" to="/transmissao">
+            Transmissão
           </Link>
         </li>
         <li class="nav-item">
           <Link class="nav-link" to="/vagas">
             Vagas
-          </Link>
-        </li>
-        <li class="nav-item">
-          <Link class="nav-link" to="/transmissao">
-            Transmissão
           </Link>
         </li>
         <li class="nav-item">
