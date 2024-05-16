@@ -86,7 +86,7 @@ function LoginAluno() {
 
                   <div className="col-12">
                     <div className="d-flex justify-content-center">
-                      <Link to="../../../Aluno/pages/Transmissao">
+                      <Link to="/transmissao">
                         <button
                           className="btn bsb-btn-xl"
                           type="submit"

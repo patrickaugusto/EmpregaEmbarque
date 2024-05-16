@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Vagas from "./Clientes/Aluno/pages/Vagas";
@@ -10,20 +10,15 @@ import PerfilAluno from "./Clientes/Aluno/pages/Perfil";
 import CadastroEmpresa from "./Clientes/Empresa/pages/Cadastro";
 
 
-const Private = ({ Item }) => {
-  const logado = false;
-
-  return logado > 0 ? <Item /> : <LoginAluno />;
-}
-
 function AppRoutes() {
+
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/vagas" element={<Vagas />} />
         <Route path="/perfilaluno" element={<PerfilAluno />} />
-        <Route path="/transmissao" element={<Private Item={Transmissao} />} />
+        <Route path="/transmissao" element={<Transmissao />} />
         <Route path="/loginempresa" element={<LoginEmpresa/>} />
         <Route path="/loginaluno" element={<LoginAluno />} />
         <Route path="/cadastroaluno" element={<CadastroAluno />} />

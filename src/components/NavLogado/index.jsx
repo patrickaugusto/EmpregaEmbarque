@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import Toggle from '../../contexts/darkmode';
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light px-5 py-2 shadow-sm mb-5 sticky-top">
+    <nav className={'navbar navbar-expand-lg navbar-light px-5 py-2 shadow-sm p-3 rounded ${colorMode === "light" ? "bg-white" : "bg-gray-800"}'}>
       <div className="container">
         <Link className="navbar-brand" to="/">
           <img src="./dist/assets/imagem/Emprega-Embarque.png" alt="Emprega Embarque" style={{ maxWidth: '120px', height: 'auto', marginLeft: '40px', marginTop: '20px' }} />
@@ -23,22 +24,25 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/transmissao">
+              <Link className="nav-link" to="/transmissao" style={{ color: '#ACB3C2' }}>
                 Transmissão
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/vagas">
+              <Link className="nav-link" to="/vagas" style={{ color: '#ACB3C2' }}>
                 Vagas
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/perfilaluno">
+              <Link className="nav-link" to="/perfilaluno" style={{ color: '#ACB3C2' }}>
                 Perfil
               </Link>
             </li>
           </ul>
         </div>
+
+        <Toggle />
+
       </div>
     </nav>
   );

@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import Toggle from '../../contexts/darkmode';
 
 function Nav() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white px-5 py-2 shadow-sm p-3 rounded sticky-top">
+      <nav className={'navbar navbar-expand-lg navbar-light px-5 py-2 shadow-sm p-3 rounded ${colorMode === "light" ? "bg-white" : "bg-gray-800"}'}>
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img src="./dist/assets/imagem/logoEmpresa.png" alt="Emprega Embarque" style={{ width: '120px', height: 'auto', marginLeft: '40px', marginTop: '20px' }} />
@@ -32,6 +33,9 @@ function Nav() {
               </Link>
             </div>
           </div>
+
+          <Toggle />
+
         </div>
       </nav>
     </>
