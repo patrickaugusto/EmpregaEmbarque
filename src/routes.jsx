@@ -8,6 +8,7 @@ import LoginEmpresa from "./Clientes/Empresa/pages/Login";
 import CadastroAluno from "./Clientes/Aluno/pages/Cadastro";
 import PerfilAluno from "./Clientes/Aluno/pages/Perfil";
 import CadastroEmpresa from "./Clientes/Empresa/pages/Cadastro";
+import Page404 from "./error/error";
 
 
 function AppRoutes() {
@@ -23,6 +24,7 @@ function AppRoutes() {
         <Route path="/loginaluno" element={<LoginAluno />} />
         <Route path="/cadastroaluno" element={<CadastroAluno />} />
         <Route path="/cadastroempresa" element={<CadastroEmpresa />} />
+        <Route path="*" element={<Page404 />} />
       </Routes>
     </BrowserRouter>
   );
