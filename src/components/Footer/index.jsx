@@ -1,30 +1,39 @@
-import styles from "./Footer.module.css";
-
 function Footer() {
   return (
-    <footer className={styles.footer}>
-        <p className={styles.titulofooter}>Equipe realizadora</p>
-        <ul className={styles.equipe}>
+    <footer class="footer">
 
-          <li className={styles.textLi}>Antônio Rodrigues<img src="../../../dist/assets/imagem/github.png" alt="iconGithub" className={styles.iconGit} />
-            <img src="../../../dist/assets/imagem/linkedin.png" alt="iconLinkedin" className={styles.iconLink} /></li>
+      <div class="bg-light text-light py-3 py-md-5 py-xl-8 border-top border-light-subtle">
+        <div class="container overflow-hidden p-0">
+          <div class="row gy-3 gy-md-5 gy-xl-0 justify-content-center m-0">
+            <div class="col-xs-12 col-xl-6 order-2 order-xl-1">
+              <ul class="nav justify-content-center m-0">
+                <li class="">
+                  <a class="nav-link text-dark px-2 px-md-3" href="#!">Integrantes</a>
+                </li>
+                <li class="">
+                  <a class="nav-link text-dark px-2 px-md-3" href="#!">Termos</a>
+                </li>
+                <li class="">
+                  <a class="nav-link text-dark px-2 px-md-3" href="#!">Privacidade</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
-          <li className={styles.textLi}>Bruna Roberta<img src="../../../dist/assets/imagem/github.png" alt="iconGithub" className={styles.iconGit} />
-            <img src="../../../dist/assets/imagem/linkedin.png" alt="iconLinkedin" className={styles.iconLink} /></li>
+      <div class="bg-light text-dark py-3 py-md-5 p-0">
+        <div class="container overflow-hidden">
+          <div class="row m-0">
+            <div class="col m-0">
+              <div class="footer-copyright-wrapper text-center">
+                &copy; 2024. Todos os Direitos Reservados.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-          <li className={styles.textLi}>
-            Danilo Santana
-            <img src="../../../dist/assets/imagem/github.png" alt="iconGithub" className={styles.iconGit} />
-            <img src="../../../dist/assets/imagem/linkedin.png" alt="iconLinkedin" className={styles.iconLink} />
-          </li>
-
-          <li className={styles.textLi}>Igor Daniel<img src="../../../dist/assets/imagem/github.png" alt="iconGithub" className={styles.iconGit} />
-            <img src="../../../dist/assets/imagem/linkedin.png" alt="iconLinkedin" className={styles.iconLink} /></li>
-
-          <li className={styles.textLi}>Patrick Augusto<img src="../../../dist/assets/imagem/github.png" alt="iconGithub" className={styles.iconGit} />
-            <img src="../../../dist/assets/imagem/linkedin.png" alt="iconLinkedin" className={styles.iconLink} /></li>
-
-        </ul>
     </footer>
   );
 }
