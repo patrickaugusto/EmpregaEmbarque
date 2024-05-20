@@ -5,6 +5,8 @@ import Card from './components/Cards';
 import imgblack from '/src/imagem/black-square.png'
 import imggreen from '/src/imagem/green-square.png'
 import imgred from '/src/imagem/red-square.png'
+import imgastronauta from "/src/imagem/astronaut.png"
+import imginicio from '/src/imagem/img-inicio.png'
 
 
 function Home() {
@@ -45,7 +47,7 @@ function Home() {
               <p className='h2'>Explore o <span className=''>Embarque Digital</span> e descubra uma oportunidade única de avançar em sua carreira no mundo da tecnologia</p>
             </div>
             <div className="col-lg-6">
-              <img className="d-block w-100 h-auto" src="/src/public/imagem/img-inicio.png" alt="First slide" />
+              <img className="d-block w-100 h-auto" src={imginicio} alt="First slide" />
             </div>
           </div>
         </div>
@@ -55,7 +57,7 @@ function Home() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
-              <img className="d-block w-100 h-auto" src="/src/public/imagem/astronaut.png" alt="First slide" />
+              <img className="d-block w-100 h-auto" src={imgastronauta} alt="First slide" />
             </div>
 
             <div className="col-lg-6">

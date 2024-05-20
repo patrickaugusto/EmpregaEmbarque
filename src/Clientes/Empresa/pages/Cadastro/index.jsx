@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Footer from "../../../../components/Footer";
 import { Input, Stack, FormControl, FormLabel, Checkbox, Button, Heading, Grid, Box } from '@chakra-ui/react';
 import Nav from '../../../../components/Nav/navEmpresa';
+import imgcadastro from "/src/imagem/imagemCadastroEmpresa.png"
 
 function CadastroEmpresa() {
   const [cnpj, setCnpj] = useState('');
@@ -22,7 +23,7 @@ function CadastroEmpresa() {
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', padding: '20px' }}>
         <Grid templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)' }} gap={6} style={{ flex: '1' }}>
           <div style={{ marginBottom: '20px', position: 'relative' }}>
-            <img src="/src/public/imagem/imagemCadastroEmpresa.png" alt="" style={{ width: '100%', maxWidth: 'auto' }} />
+            <img src={imgcadastro} alt="" style={{ width: '100%', maxWidth: 'auto' }} />
           </div>
           <Box maxWidth="400px" mt="25px" mb="20px" ml={{ base: 0, md: '40px' }}>
             <Heading className='d-flex justify-content-center' as="h1" size="lg" color="#F9A826" mb={4}>CADASTRO</Heading>

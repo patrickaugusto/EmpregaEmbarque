@@ -1,6 +1,7 @@
 import Footer from "../../../../components/Footer";
 import Nav from "../../../../components/Nav";
 import { Link } from "react-router-dom";
+import imglogin from '/src/imagem/imagemLoginAluno.png'
 
 function LoginAluno() {
   return (
@@ -129,7 +130,7 @@ function LoginAluno() {
               <img
                 className="img-responsive rounded mb-4"
                 loading="lazy"
-                src="/src/public/imagem/imagemLoginAluno.png"
+                src={imglogin}
                 alt="Imagem Login Estudante"
                 style={{ maxWidth: "80%", height: "auto" }}
               />

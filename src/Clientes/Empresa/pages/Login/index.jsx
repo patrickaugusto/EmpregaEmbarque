@@ -1,6 +1,7 @@
 import Footer from "../../../../components/Footer";
 import Nav from "/src/components/Nav/navEmpresa";
 import { Link } from "react-router-dom";
+import imglogin from "/src/imagem/imagemLoginEmpresa.png"
 
 function LoginEmpresa() {
   return (
@@ -86,7 +87,7 @@ function LoginEmpresa() {
 
                   <div className="col-12">
                     <div className="d-flex justify-content-center">
-                      <Link to="/transmissao">
+                      <Link to="">
                         <button
                           className="btn bsb-btn-xl"
                           type="submit"
@@ -129,7 +130,7 @@ function LoginEmpresa() {
               <img
                 className="img-responsive rounded mb-4"
                 loading="lazy"
-                src="/src/public/imagem/imagemLoginEmpresa.png"
+                src={imglogin}
                 alt="Imagem Login Estudante"
                 style={{ maxWidth: "100%", height: "auto" }}
               />

@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import Toggle from '../../contexts/darkmode';
+import logo from "/src/imagem/logo.png"
 
 function Nav() {
   return (
     <nav className={'navbar navbar-expand-lg navbar-light px-5 py-2 shadow-sm p-3 rounded ${colorMode === "light" ? "bg-white" : "bg-gray-800"}'}>
       <div className="container">
         <Link className="navbar-brand" to="/">
-          <img src="/src/public/imagem/logo.png" alt="Emprega Embarque" style={{ maxWidth: '120px', height: 'auto', marginLeft: '40px', marginTop: '20px' }} />
+          <img src={logo} alt="Emprega Embarque" style={{ maxWidth: '120px', height: 'auto', marginLeft: '40px', marginTop: '20px' }} />
         </Link>
 
         <button
