@@ -22,7 +22,7 @@ function CadastroAluno() {
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', padding: '20px' }}>
         <Grid templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)' }} gap={6} style={{ flex: '1' }}>
           <div style={{ marginBottom: '20px', position: 'relative' }}>
-            <img src="./dist/assets/imagem/pessoasIlustracao.png" alt="" style={{ width: '100%', maxWidth: '100%' }} />
+            <img src="/src/public/imagem/pessoasIlustracao.png" alt="" style={{ width: '100%', maxWidth: '100%' }} />
           </div>
           <Box maxWidth="400px" mt="25px" mb="20px" ml={{ base: 0, md: '40px' }}>
             <Heading className='d-flex justify-content-center' as="h1" size="lg" color="green.500" mb={4}>CADASTRO</Heading>

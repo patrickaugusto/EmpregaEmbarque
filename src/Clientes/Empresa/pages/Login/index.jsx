@@ -129,7 +129,7 @@ function LoginEmpresa() {
               <img
                 className="img-responsive rounded mb-4"
                 loading="lazy"
-                src="dist/assets/imagem/imagemLoginEmpresa.png"
+                src="/src/public/imagem/imagemLoginEmpresa.png"
                 alt="Imagem Login Estudante"
                 style={{ maxWidth: "100%", height: "auto" }}
               />

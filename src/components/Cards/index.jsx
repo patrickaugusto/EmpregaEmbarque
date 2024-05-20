@@ -52,21 +52,21 @@ export default function Gallery() {
         <div className="row">
             
             <Profile
-                image="/dist/assets/imagem/imagem-perfil.jpg"
+                image="/src/public/imagem/imagem-perfil.jpg"
                 name="Patrick Augusto"
                 profession="Desenvolvedor na Empresa X"
                 quote="“Um texto de como o embarque ajudou e tals”"
             />
             
             <Profile
-                image='/dist/assets/imagem/imagem-perfil.jpg'
+                image='/src/public/imagem/imagem-perfil.jpg'
                 name='Igor Daniel'
                 profession='Desenvolvedor na Empresa X'
                 quote="“Um texto de como o embarque ajudou e tals”"
             />
             
             <Profile
-                image='/dist/assets/imagem/imagem-perfil.jpg'
+                image='/src/public/imagem/imagem-perfil.jpg'
                 name='Danilo Santana'
                 profession='Desenvolvedor na Empresa X'
                 quote="“Um texto de como o embarque ajudou e tals”"

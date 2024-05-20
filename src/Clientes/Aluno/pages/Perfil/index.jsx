@@ -20,7 +20,7 @@ function PerfilAluno() {
             <div className="card mb-4">
               <div className="card-body text-center">
                 <img
-                  src="/dist/assets/imagem/github.png"
+                  src="/src/public/imagem/imagem-perfil.jpg"
                   alt="avatar"
                   className="rounded-circle img-fluid mb-3"
                   style={{ width: "150px" }}
