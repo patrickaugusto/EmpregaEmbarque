@@ -2,6 +2,10 @@ import Nav from './components/Nav/index'
 import Footer from './components/Footer/index'
 import './style.css';
 import Card from './components/Cards';
+import imgblack from '/src/imagem/black-square.png'
+import imggreen from '/src/imagem/green-square.png'
+import imgred from '/src/imagem/red-square.png'
+
 
 function Home() {
   return (
@@ -15,13 +19,13 @@ function Home() {
         </ol>
         <div className="carousel-inner" style={{ height: 'auto', maxHeight: '500px', marginBottom: '80px' }}>
           <div className="carousel-item active">
-            <img className="d-block w-100 h-100" src="/src/public/imagem/black-square.png" alt="First slide" />
+            <img className="d-block w-100 h-100" src={imgblack} alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100 h-100" src="/src/public/imagem/green-square.png" alt="Second slide" />
+            <img className="d-block w-100 h-100" src={imggreen} alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100 h-100" src="/src/public/imagem/red-square.png" alt="Third slide" />
+            <img className="d-block w-100 h-100" src={imgred} alt="Third slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
